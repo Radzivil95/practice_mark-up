@@ -1,0 +1,30 @@
+.video {
+    padding-top: 94px;
+    min-height: 500px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 36px;
+        color: #000000;
+    }
+    &__descr {
+        margin-top: 21px;
+        text-align: justify;
+        width: 445px;
+        height: 115px;
+        font-weight: 400;
+        line-height: 140%;
+        font-size: 15px;
+        color: #000000;
+    }
+    &__link {
+        color: #ED4C5C;
+        font-weight: 400;
+        font-size: 14px;
+        text-decoration: none;
+    }
+}

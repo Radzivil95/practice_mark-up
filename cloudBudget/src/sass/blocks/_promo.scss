@@ -1,0 +1,23 @@
+.promo {
+    padding-top: 55px;
+    position: relative;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0.8) 0%, rgba(238, 61, 27, 0.8) 100%), url('../../img/hero-bg.jpg') center (center/cover) no-repeat;
+    min-height: 782px;
+    z-index: 1;
+    &__suptitle {
+        margin-top: 141px;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 84px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+    }
+    &__title {
+        margin-top: 40px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}

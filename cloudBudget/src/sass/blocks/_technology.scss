@@ -1,0 +1,54 @@
+.technology {
+    padding-top: 63px;
+    min-height: 500px;
+    &__title {
+        text-align: center;
+        color: #000000;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    &__items {
+        margin-top: 52px;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+    }
+    &__number {
+        font-family: 'Lato';
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 120px;
+        text-align: center;
+        color: rgba(16, 16, 16, 0.08);
+        z-index: 1;
+    }
+    &__icons {   
+        display: block;
+        margin: 0 auto;
+        margin-top: -70px;
+        width: 80px;
+        height: 80px;
+        z-index: 2;
+    }
+    &__item-title {
+        margin-top: 15px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #101010;
+        text-align: center;
+
+    }
+    &__item-descr {
+        margin-top: 11px;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: center;
+        color: #000000;
+        width: 191px;
+    }
+}

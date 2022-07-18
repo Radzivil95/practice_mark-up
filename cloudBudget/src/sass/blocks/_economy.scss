@@ -1,0 +1,33 @@
+.economy {
+    padding-top: 94px;
+    min-height: 500px;
+    background-color: #ED4C5C;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-weight: 500;
+        font-size: 36px;
+        color: #FFFFFF;
+    }
+    &__descr {
+        margin-top: 24px;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+    &__links {
+        margin-top: 40px;
+        a {
+            margin-right: 23px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        }
+    }
+    &__img {
+        border-radius: 20px;
+    }
+}

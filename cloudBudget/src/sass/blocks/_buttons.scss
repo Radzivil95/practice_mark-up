@@ -24,4 +24,16 @@
         font-size: 14px;
         line-height: 16px;
     }
+    &__form {
+        width: 160px;
+        height: 50px;
+        background: #ED4C5C;
+        border: 1.5px solid #ED4C5C;
+        border-radius: 6px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
 }

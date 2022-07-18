@@ -1,0 +1,28 @@
+.footer {
+    min-height: 470px;
+    &__wrapper {
+        background: #FAFAFA;
+    }
+    &__title {
+        font-family: 'Lato';
+        padding-top: 43px;
+        color: #101010;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__descr {
+        margin-top: 20px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 12px;
+        color: #101010;
+    }
+    &__copyright {
+        margin-top: 45px;
+        padding-bottom: 48px;
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 12px;
+        color: #101010;
+    }
+}
